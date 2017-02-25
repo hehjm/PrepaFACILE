@@ -1,11 +1,10 @@
-# PrepaFACILE
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>PrepaFacile : Page d'accueil </title>
+    <title>Wpf Bgness : Archive Blog</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -18,14 +17,16 @@
     <!-- slick slider css file -->
     <link href="css/slick.css" rel="stylesheet">        
     <!-- website theme color file -->   
-     <link id="switcher" href="css/themes/cyan-theme.css" rel="stylesheet">    
+    <link id="switcher" href="css/themes/cyan-theme.css" rel="stylesheet">   
     <!-- main site css file -->    
-    <link href="style.css" rel="stylesheet">    
+    <link href="style.css" rel="stylesheet">
     <!-- google fonts  -->  
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>    
-    <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>  
+    <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
     <!-- Favicon -->
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">  
+
+  <!-- <script src="js/sequencejs-options.apple-style.js"></script> -->
   
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -37,8 +38,8 @@
 <body>
   <!-- =========================
     //////////////This Theme Design and Developed //////////////////////
-    //////////// by www.wpfreeware.com======================--> 
-
+    //////////// by www.wpfreeware.com======================-->
+ 
   <!-- Preloader -->
   <div id="preloader">
     <div id="status">&nbsp;</div>
@@ -46,9 +47,8 @@
  
   <!-- End Preloader -->   
   <a class="scrollToTop" href="#"><i class="fa fa-angle-up"></i></a>
-  
   <!-- start navbar -->
-  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+ <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
     <div class="container">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -57,554 +57,254 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="index.html" >Prepa <span>Facile</span></a>
+        <a class="navbar-brand" href="index.html">WpF <span>BGness</span></a>
         <!-- <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="logo"></a> -->
       </div>
       <div id="navbar" class="navbar-collapse collapse navbar_area">          
         <ul class="nav navbar-nav navbar-right custom_nav">
-          <li class="active"><a href="index.html">Accueil</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
           <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Maths<span class="caret"></span></a>
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
             <ul class="dropdown-menu" role="menu">
-              <li><a href="#">cours MPSI</a></li>
-              <li><a href="#">cours MP</a></li>
-              <li><a href="#">sujet concours</a></li>               
+              <li><a href="#">Link one</a></li>
+              <li><a href="#">Link Two</a></li>
+              <li><a href="#">Link Three</a></li>               
             </ul>
-          </li>             
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Physique<span class="caret"></span></a>
-            <ul class="dropdown-menu" role="menu">
-              <li><a href="#">cours MPSI</a></li>
-              <li><a href="#">cours MP</a></li>
-              <li><a href="#">sujet concours</a></li>               
-            </ul>
-          </li>             
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Informatique<span class="caret"></span></a>
-            <ul class="dropdown-menu" role="menu">
-              <li><a href="#">cours</a></li>
-              <li><a href="#">sujet concours</a></li>               
-            </ul>
-          </li>             
-         <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Soutien Scolaire<span class="caret"></span></a>
-            <ul class="dropdown-menu" role="menu">
-              <li><a href="#">Disponibilité professeur</a></li>
-              <li><a href="#">Tarifs des cours</a></li>
-              <li><a href="#">nos engagements</a></li>               
-            </ul>
-          </li>             
+          </li>
+          <li><a href="page.html">Page</a></li>             
+          <li class="active"><a href="blog-archive.html">Blog</a></li>
+        </ul>
       </div><!--/.nav-collapse -->
     </div>
   </nav>
   <!-- End navbar -->
-
-  <!-- start slider section -->
-  <section id="sliderSection">            
-    <div class="mainslider_area">
-      <!-- Start super slider -->
-      <div id="slides">
-        <ul class="slides-container">
-          <!-- Start single slider-->
-          <li>
-            <img src="img/slider/1.jpg" alt="img">
-            <div class="slider_caption">
-              <h2><span>Bienvenue à</span> Prepa FACILE</h2>
-              <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search</p>
-            </div>
-          </li> 
-          <!-- Start single slider-->
-          <li>
-            <img src="img/slider/2.jpg" alt="img">
-             <div class="slider_caption">
-              <h2><span>Beausiness</span> & Corporate</h2>
-              <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search</p>
-            </div>
-           </li>
-        </ul>
-        <nav class="slides-navigation">
-          <a href="#" class="next"></a>
-          <a href="#" class="prev"></a>
-        </nav>
-      </div>
-    </div>
-  </div>    
+  
+ 
+  <!-- start banner area -->
+  <section id="imgbanner">  
+    <h2>Blog Archive</h2>     
   </section>
-  <!-- End slider section -->
-
-  <!-- Start Service area -->
-  <section id="service">
-    <div class="container">
-      <div class="col-lg-12 col-md-12 col-sm-12">
-        <div class="service_area">
-          <div class="service_title">
-            <hr>
-            <h2>Notices Concours </h2>
-          </div>
-          <ul class="service_nav wow flipInX">
-            <li>
-              <a class="service_icon" href="#"><img src="polytechnique.png"></a>
-              <h2>An almost infinite number of project complete</h2>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-         	  <a class="read_more" href="#">read more<i class="fa fa-long-arrow-right"></i></a>
-            </li>
-			 <li>
-              <a class="service_icon" href="#"><img src="mines.png"></a>
-              <h2>An almost infinite number of project complete</h2>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-              <a class="read_more" href="#">read more<i class="fa fa-long-arrow-right"></i></a>
-            </li>
-			 <li>
-              <a class="service_icon" href="#"><img src="ens.png"></a>
-              <h2>An almost infinite number of project complete</h2>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-              <a class="read_more" href="#">read more<i class="fa fa-long-arrow-right"></i></a>
-            </li>
-			 <li>
-              <a class="service_icon" href="#"><i class="fa fa-users"></i></a>
-              <h2>An almost infinite number of project complete</h2>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-              <a class="read_more" href="#">read more<i class="fa fa-long-arrow-right"></i></a>
-            </li>
-           <li>
-              <a class="service_icon" href="#"><i class="fa fa-gears"></i></a>
-              <h2>Efficient Workflow</h2>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-              <a class="read_more" href="#">read more<i class="fa fa-long-arrow-right"></i></a>
-            </li>
-            <li>
-              <a class="service_icon" href="#"><i class="fa fa-support"></i></a>
-              <h2>Extraordinary Support</h2>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-              <a class="read_more" href="#">read more<i class="fa fa-long-arrow-right"></i></a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- End Service area -->
-
-  <!-- start How it works area -->
-  <section id="howWorks">
+  <!-- End banner area -->
+  <!-- start image editing  -->
+  <section id="blogArchive">
     <div class="container">
       <div class="row">
-        <div class="col-lg-12 col-md-12 col-sm-12">
-          <div class="howworks_area">
-            <div class="client_title">
-              <hr>
-              <h2>How <span>It Works</span></h2>
+        <div class="col-lg-8 col-md-8 col-sm-12">
+         <div class="blogArchive_area">
+         <!-- start single archive post -->
+          <div class="single_archiveblog wow fadeInDown">
+            <div class="archiveblog_left">
+              <img class="author_img" src="img/blogger.jpg" alt="img">
+              <h5 class="author_name">Holly Christina</h5>
+              <p class="postdate">February 16, 2015  </p>
             </div>
-            <div class="row">
-              <div class="col-lg-6 col-md-6 col-sm-6">
-                <div class="howworks_slider wow fadeInLeftBig">
-                  <div class="slider_area">
-                      <!-- Set up your HTML -->
-                    <div class="slick_slider">
-                      <div class="single_iteam">
-                        <a href="single_page.html"> <img src="img/works_slider1.jpg" alt="img"></a>                          
-                      </div>
-                      <div class="single_iteam">
-                        <a href="single_page.html"> <img src="img/works_slider2.jpg" alt="img"></a>                          
-                      </div>
-                      <div class="single_iteam">
-                        <a href="single_page.html"> <img src="img/works_slider1.jpg" alt="img"></a>                          
-                      </div>
-                      <div class="single_iteam">
-                        <a href="single_page.html"> <img src="img/works_slider2.jpg" alt="img"></a>                          
-                      </div>
-                    </div>
-                  </div>
-                </div>
+
+            <div class="archiveblog_right">
+              <h2>It's That time of year again! Prepare your ecomarce store for cyber Monday</h2>
+              <div class="post_commentbox">
+                <a href="#"><i class="fa fa-tags"></i>Technology</a>
+                <a href="#"><i class="fa fa-comments"></i>Comments</a>             
               </div>
-              <div class="col-lg-6 col-md-6 col-sm-6">
-                <div class="howworks_featured wow fadeInRightBig">
-                <!-- single featured -->
-                  <div class="media">
-                    <a class="media-left media-middle" href="#">
-                      <i class="fa fa-laptop"></i>
-                    </a>
-                    <div class="media-body">
-                      <h4 class="media-heading">Title One</h4>
-                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
-                    </div>
-                  </div>
-                  <!-- End single featured -->
+              <img src="img/blog.jpg" alt="img">
+              <p>As the second largest social network in existence, a Google+ profile will give your brand a massive reach. But the most valuable thing about getting your eCommerce store onto Google+ is that Google prioritises all Google+, making it the best social media platform for search engine optimisation.</p>
+               <a class="read_more" href="single.html">read more<i class="fa fa-long-arrow-right"></i></a>
+            </div>
+          </div>
+          <!-- End single archive post -->
 
-                  <!-- single featured -->
-                  <div class="media">
-                    <a class="media-left media-middle" href="#">
-                      <i class="fa fa-legal"></i>
-                    </a>
-                    <div class="media-body">
-                      <h4 class="media-heading">Title Two</h4>
-                      <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout</p>
-                    </div>
-                  </div>
-                  <!-- End single featured -->
+          <!-- start single archive post -->
+          <div class="single_archiveblog wow fadeInDown">
+            <div class="archiveblog_left">
+              <img class="author_img" src="img/blogger.jpg" alt="img">
+              <h5 class="author_name">Holly Christina</h5>
+              <p class="postdate">February 16, 2015  </p>
+            </div>          
 
-                  <!-- single featured -->
-                  <div class="media">
-                    <a class="media-left media-middle" href="#">
-                      <i class="fa fa-line-chart"></i>
-                    </a>
-                    <div class="media-body">
-                      <h4 class="media-heading">Title Three</h4>
-                      <p>There are many variations of passages of Lorem Ipsum available</p>
-                    </div>
-                  </div>
-                  <!-- End single featured -->
-                  <a class="featured_btn" href="#">Try it now for free!</a>
-                </div>
+            <div class="archiveblog_right">
+              <h2>It's That time of year again! Prepare your ecomarce store for cyber Monday</h2>
+              <div class="post_commentbox">
+                <a href="#"><i class="fa fa-tags"></i>Technology</a>
+                <a href="#"><i class="fa fa-comments"></i>Comments</a>             
               </div>
+              <img src="img/blog.jpg" alt="img">
+              <p>As the second largest social network in existence, a Google+ profile will give your brand a massive reach. But the most valuable thing about getting your eCommerce store onto Google+ is that Google prioritises all Google+, making it the best social media platform for search engine optimisation.</p>
+               <a class="read_more" href="single.html">read more<i class="fa fa-long-arrow-right"></i></a>
             </div>
           </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- End How it works area -->
+          <!-- End single archive post -->
 
-  <!-- start Our Team area -->
-  <section id="ourTeam">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 col-md-12 col-sm-12">
-          <div class="team_area wow fadeInLeftBig">
-            <div class="team_title">
-              <hr>
-              <h2>Meet <span>Our Team</span></h2>
-              <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters</p>
+          <!-- start single archive post -->
+          <div class="single_archiveblog wow fadeInDown">
+            <div class="archiveblog_left">
+              <img class="author_img" src="img/blogger.jpg" alt="img">
+              <h5 class="author_name">Holly Christina</h5>
+              <p class="postdate">February 16, 2015 </p>
             </div>
-            <div class="team">
-              <ul class="team_nav">
-                <li>
-                  <div class="team_img">
-                    <img src="img/leify.png" alt="team-img">
-                  </div>
-                  <div class="team_content">
-                    <h4>Ben Davis</h4>
-                    <p>Managing Director</p>
-                  </div>
-                  <div class="team_social">
-                    <a href="#"><span class="fa fa-facebook"></span></a>
-                    <a href="#"><span class="fa fa-twitter"></span></a>
-                    <a href="#"><span class="fa fa-linkedin"></span></a>
-                    <a href="#"><span class="fa fa-google-plus"></span></a>
-                  </div>
-                </li>
-                <li>
-                  <div class="team_img">
-                    <img src="img/leify.png" alt="team-img">
-                  </div>
-                  <div class="team_content">
-                    <h4 class="team_name">Dania Gerhardt</h4>
-                    <p>Managing Director</p>
-                  </div>
-                  <div class="team_social">
-                    <a href="#"><span class="fa fa-facebook"></span></a>
-                    <a href="#"><span class="fa fa-twitter"></span></a>
-                    <a href="#"><span class="fa fa-linkedin"></span></a>
-                    <a href="#"><span class="fa fa-google-plus"></span></a>
-                  </div>
-                </li>
-                <li>
-                  <div class="team_img">
-                    <img src="img/leify.png" alt="team-img">
-                  </div>
-                  <div class="team_content">
-                    <h4 class="team_name">Dania Gerhardt</h4>
-                    <p>Managing Director</p>
-                  </div>
-                  <div class="team_social">
-                    <a href="#"><span class="fa fa-facebook"></span></a>
-                    <a href="#"><span class="fa fa-twitter"></span></a>
-                    <a href="#"><span class="fa fa-linkedin"></span></a>
-                    <a href="#"><span class="fa fa-google-plus"></span></a>
-                  </div>
-                </li>
-                <li>
-                  <div class="team_img">
-                    <img src="img/leify.png" alt="team-img">
-                  </div>
-                  <div class="team_content">
-                    <h4 class="team_name">Dania Gerhardt</h4>
-                    <p>Managing Director</p>
-                  </div>
-                  <div class="team_social">
-                    <a href="#"><span class="fa fa-facebook"></span></a>
-                    <a href="#"><span class="fa fa-twitter"></span></a>
-                    <a href="#"><span class="fa fa-linkedin"></span></a>
-                    <a href="#"><span class="fa fa-google-plus"></span></a>
-                  </div>
-                </li>
-                <li>
-                  <div class="team_img">
-                    <img src="img/leify.png" alt="team-img">
-                  </div>
-                  <div class="team_content">
-                    <h4 class="team_name">Dania Gerhardt</h4>
-                    <p>Managing Director</p>
-                  </div>
-                  <div class="team_social">
-                    <a href="#"><span class="fa fa-facebook"></span></a>
-                    <a href="#"><span class="fa fa-twitter"></span></a>
-                    <a href="#"><span class="fa fa-linkedin"></span></a>
-                    <a href="#"><span class="fa fa-google-plus"></span></a>
-                  </div>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- End Our Team area -->
 
-  <!-- start price section -->
-  <section id="priceSection">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 col-md-12 col-sm-12">
-          <div class="client_title">
-            <hr>
-            <h2>Choose <span>Your Plan</span></h2>
+            <div class="archiveblog_right">
+              <h2>It's That time of year again! Prepare your ecomarce store for cyber Monday</h2>
+              <div class="post_commentbox">
+                <a href="#"><i class="fa fa-tags"></i>Technology</a>
+                <a href="#"><i class="fa fa-comments"></i>Comments</a>             
+              </div>
+              <img src="img/blog.jpg" alt="img">
+              <p>As the second largest social network in existence, a Google+ profile will give your brand a massive reach. But the most valuable thing about getting your eCommerce store onto Google+ is that Google prioritises all Google+, making it the best social media platform for search engine optimisation.</p>
+               <a class="read_more" href="single.html">read more<i class="fa fa-long-arrow-right"></i></a>
+            </div>
           </div>
-          <!-- Start Plan area -->
-          <div class="pricearea">
-            <ul class="price_nav wow bounceIn">               
-              <li>
-                <h2 class="price_heading">Basic</h2>
-               <ul class="pfeatured_nav">
-                  <li><strong>300MB</strong> Disk Space </li>
-                  <li><strong>400MB</strong> Monthly Traffic</li>
-                  <li><strong>5</strong> Subdomains</li>
-                  <li><strong>10</strong> Email Accounts</li>
-                  <li>Webmail Support</li>
-                  <li>MySQL Support</li>
-                  <li>PHP5 Support</li>
-                </ul>
-                <h3>$30</h3>
-                <p>Per Month</p>
-                <a class="get_button" href="#">Get a quote</a>
-              </li>
-              <!-- Start single Plan -->
-              <li>
-                <h2 class="price_heading">Standard</h2>
-                <ul class="pfeatured_nav">
-                  <li><strong>1GB</strong> Disk Space </li>
-                  <li><strong>512MB</strong> Monthly Traffic</li>
-                  <li><strong>10</strong> Subdomains</li>
-                  <li><strong>15</strong> Email Accounts</li>
-                  <li>Webmail Support</li>
-                  <li>MySQL Support</li>
-                  <li>PHP5 Support</li>
-                </ul>
-                <h3>$50</h3>
-                <p>Per Month</p>
-                <a class="get_button" href="#">Get a quote</a>
-              </li>
-              <!-- Start single Plan -->
-              <li>
-                <h2 class="price_heading">Business</h2>
-                <ul class="pfeatured_nav">
-                  <li><strong>3GB</strong> Disk Space </li>
-                  <li><strong>1.5Gb</strong> Monthly Traffic</li>
-                  <li><strong>25</strong> Subdomains</li>
-                  <li><strong>200</strong> Email Accounts</li>
-                  <li>Webmail Support</li>
-                  <li>MySQL Support</li>
-                  <li>PHP5 Support</li>
-                </ul>
-                <h3>$90</h3>
-                <p>Per Month</p>
-                <span class="price_badge">Most Popular!</span>
-                <a class="get_button" href="#">Get a quote</a>
-              </li>
-              <!-- Start single Plan -->
-              <li>
-                <h2 class="price_heading">Platinum</h2>
-                <ul class="pfeatured_nav">
-                  <li><strong>Unlimited</strong> Disk Space </li>
-                  <li><strong>Unlimited</strong> Monthly Traffic</li>
-                  <li><strong>Unlimited</strong> Subdomains</li>
-                  <li><strong>Unlimited</strong> Email Accounts</li>
-                  <li>Webmail Support</li>
-                  <li>MySQL Support</li>
-                  <li>PHP5 Support</li>
-                 </ul>
-                <h3>$130</h3>
-                <p>Per Month</p>
-                <a class="get_button" href="#">Get a quote</a>
-              </li>
+          <!-- End single archive post -->
+
+          <!-- start single archive post -->
+          <div class="single_archiveblog wow fadeInDown">
+            <div class="archiveblog_left">
+              <img class="author_img" src="img/blogger.jpg" alt="img">
+              <h5 class="author_name">Holly Christina</h5>
+              <p class="postdate">February 16, 2015 </p>
+            </div>
+
+            <div class="archiveblog_right">
+              <h2>It's That time of year again! Prepare your ecomarce store for cyber Monday</h2>
+              <div class="post_commentbox">
+                <a href="#"><i class="fa fa-tags"></i>Technology</a>
+                <a href="#"><i class="fa fa-comments"></i>Comments</a>             
+              </div>
+              <img src="img/blog.jpg" alt="img">
+              <p>As the second largest social network in existence, a Google+ profile will give your brand a massive reach. But the most valuable thing about getting your eCommerce store onto Google+ is that Google prioritises all Google+, making it the best social media platform for search engine optimisation.</p>
+               <a class="read_more" href="single.html">read more<i class="fa fa-long-arrow-right"></i></a>
+            </div>
+          </div>
+          <!-- End single archive post -->
+         </div>
+
+         <!-- start pagination -->
+         <nav>
+            <ul class="pagination wow fadeInLeft">
+              <li><a href="#"><span aria-hidden="true">&laquo;</span><span class="sr-only">Previous</span></a></li>
+              <li><a href="#">1</a></li>
+              <li><a href="#">2</a></li>
+              <li><a href="#">3</a></li>
+              <li><a href="#">4</a></li>
+              <li><a href="#">5</a></li>
+              <li><a href="#"><span aria-hidden="true">&raquo;</span><span class="sr-only">Next</span></a></li>
+            </ul>
+          </nav><!-- End pagination -->
+
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12">
+         <div class="blog_sidebar">
+         <!-- Start single side bar -->
+         <div class="single_sidebar">
+            <h2>Recent Post</h2>
+            <ul class="small_catg similar_nav">
+                <li>
+                  <div class="media">
+                    <a href="#" class="media-left related-img">
+                      <img alt="img" src="img/blog.jpg">
+                    </a>
+                    <div class="media-body">
+                      <h4 class="media-heading"><a href="#">Duis condimentum nunc pretium lobortis </a></h4> 
+                      <p>Nunc tincidunt, elit non cursus euismod, lacus augue ornare metus, egestas imperdiet nulla nisl quis mauris.</p>
+                    </div>
+                  </div>
+                </li>                    
+                <li>
+                  <div class="media">
+                    <a href="#" class="media-left related-img">
+                      <img alt="img" src="img/blog.jpg">
+                    </a>
+                    <div class="media-body">
+                      <h4 class="media-heading"><a href="#">Duis condimentum nunc pretium lobortis </a></h4> 
+                      <p>Nunc tincidunt, elit non cursus euismod, lacus augue ornare metus, egestas imperdiet nulla nisl quis mauris.</p>
+                    </div>
+                  </div>
+                </li>
             </ul>
           </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- End price section -->
 
-  <!-- start special quote -->
-  <section id="specialQuote">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 col-md-12 wow bounceInLeft">
-          <p>Pairing substantial savings in time and money with the ease and reliability of doing it in-house, ever since… we invented it</p>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- End special quote -->
-
-  <!-- start client testimonial -->
-  <section id="testimonial">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 col-md-12 col-sm-12">
-          <div class="testimonial_area wow bounceIn">
-            <div class="client_title">
-              <hr>
-              <h2>What <span>Others are Saying</span></h2>
-            </div>
-            <ul class="testimon_nav">
-              <li>
-               <div class="testimonial_content">
-                  <blockquote>
-                    <p>Perfect has been one of our most valued discoveries! The exceptional service offered by the team is second to none; the finished product is delivered perfectly, with remarkably quick turnaround, every time. It is a service we can (& do!) rely on and recommend to all that we meet.</p>
-                  <small>Jacquie Ward, Love Movement</small>
-                  </blockquote>
-                  <div class="client_img">
-                    <img src="img/leify.png" alt="img">
+        <!-- Start single side bar -->
+         <div class="single_sidebar">
+            <h2>Popular Post</h2>
+            <ul class="small_catg similar_nav">
+                <li>
+                  <div class="media">
+                    <a href="#" class="media-left related-img">
+                      <img alt="img" src="img/blog.jpg">
+                    </a>
+                    <div class="media-body">
+                      <h4 class="media-heading"><a href="#">Duis condimentum nunc pretium lobortis </a></h4> 
+                      <p>Nunc tincidunt, elit non cursus euismod, lacus augue ornare metus, egestas imperdiet nulla nisl quis mauris.</p>
+                    </div>
                   </div>
-               </div>
-              </li>
-             <li>
-               <div class="testimonial_content">
-                  <blockquote>
-                    <p>Perfect has been one of our most valued discoveries! The exceptional service offered by the team is second to none; the finished product is delivered perfectly, every time. It is a service we can (& do!) rely on and recommend to all that we meet.</p>
-                  <small>Jacquie Ward, Love Movement</small>
-                  </blockquote>
-                  <div class="client_img">
-                    <img src="img/leify.png" alt="img">
+                </li>                    
+                <li>
+                  <div class="media">
+                    <a href="#" class="media-left related-img">
+                      <img alt="img" src="img/blog.jpg">
+                    </a>
+                    <div class="media-body">
+                      <h4 class="media-heading"><a href="#">Duis condimentum nunc pretium lobortis </a></h4> 
+                      <p>Nunc tincidunt, elit non cursus euismod, lacus augue ornare metus, egestas imperdiet nulla nisl quis mauris.</p>
+                    </div>
                   </div>
-               </div>
-              </li>
-              <li>
-               <div class="testimonial_content">
-                  <blockquote>
-                    <p>Perfect has been one of our most valued discoveries! The exceptional service offered by the team is second to none; the finished product is delivered perfectly, with remarkably quick turnaround, every time. It is a service we can (& do!) rely on and recommend to all that we meet.</p>
-                  <small>Jacquie Ward, Love Movement</small>
-                  </blockquote>
-                  <div class="client_img">
-                    <img src="img/leify.png" alt="img">
-                  </div>
-               </div>
-              </li>
+                </li>
             </ul>
           </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- End client testimonial -->  
-
-  <!-- start featured blog area -->
-  <section id="featuredBlog">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 col-md-12 col-sm-12">
-          <div class="featuredBlog_area">
-            <div class="team_title">
-              <hr>
-              <h2>News <span>From Our Blog</span></h2>
-              <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters</p>
-            </div>
-            <!-- start featured blog -->
-            <div class="featured_blog">
-              <div class="row">
-                <!-- start single featured blog -->
-                <div class="col-lg-4 col-md-4 col-sm-4">
-                  <div class="single_featured_blog">                      
-                    <img alt="img" src="img/blog.jpg">
-                    <h2>It's That time of year again! </h2>
-                    <div class="post_commentbox">
-                      <a href="#"><i class="fa fa-tags"></i>Technology</a>
-                      <a href="#"><i class="fa fa-comments"></i>Comments</a>      
-                    </div>
-                    <p>As the second largest social network in existence, a Google+ profile will give your brand a massive reach. But the most valuable thing about getting your eCommerce store onto Google+ is that Google prioritises all Google+, making it the best social media platform for search engine optimisation.</p>
-                    <a href="single.html" class="read_more">read more<i class="fa fa-long-arrow-right"></i></a>
-                  </div>
-                </div>
-                <!-- start single featured blog -->
-                <div class="col-lg-4 col-md-4 col-sm-4">
-                  <div class="single_featured_blog">                      
-                    <img alt="img" src="img/blog.jpg">
-                    <h2>It's That time of year again! Prepare your ecomarce </h2>
-                    <div class="post_commentbox">
-                      <a href="#"><i class="fa fa-tags"></i>Technology</a>
-                      <a href="#"><i class="fa fa-comments"></i>Comments</a>      
-                    </div>
-                    <p>As the second largest social network in existence, a Google+ profile will give your brand a massive reach. But the most valuable thing about getting your eCommerce store onto Google+ is that Google prioritises all Google+, making it the best social media platform for search engine optimisation.</p>
-                    <a href="single.html" class="read_more">read more<i class="fa fa-long-arrow-right"></i></a>
-                  </div>
-                </div>
-                <!-- start single featured blog -->
-                <div class="col-lg-4 col-md-4 col-sm-4">
-                  <div class="single_featured_blog">                      
-                    <img alt="img" src="img/blog.jpg">
-                    <h2>It's That time of year again!</h2>
-                    <div class="post_commentbox">
-                      <a href="#"><i class="fa fa-tags"></i>Technology</a>
-                      <a href="#"><i class="fa fa-comments"></i>Comments</a>      
-                    </div>
-                    <p>As the second largest social network in existence, a Google+ profile will give your brand a massive reach. But the most valuable thing about getting your eCommerce store onto Google+ is that Google prioritises all Google+, making it the best social media platform for search engine optimisation.</p>
-                    <a href="single.html" class="read_more">read more<i class="fa fa-long-arrow-right"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
+          <!-- Start single side bar -->
+          <div class="single_sidebar">
+            <h2>Category</h2>
+            <ul class="catg_nav">
+              <li><a href="#">Business</a></li>
+              <li><a href="#">Technology</a></li>
+              <li><a href="#">News</a></li>
+              <li><a href="#">Exclusive</a></li>
+              <li><a href="#">Corporate</a></li>
+            </ul>
           </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- End featured blog area -->
-
-  <!-- start clients brand area -->
-  <section id="clients_brand">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 col-md-12 col-sm-12">
-          <div class="clients_brand_area wow flipInX">
-            <div class="client_title">
-              <hr>
-              <h2><span>Our</span> Clients</h2>
-            </div>              
-            <div class="clients_brand">
-              <!-- Start clients brand slider -->
-             <ul class="clb_nav wow flipInX">
-               <li><img src="img/envato-studio.png" alt="brand-img"></li>
-               <li><img src="img/codecanyon.png" alt="brand-img"></li>
-               <li><img src="img/audiojungle.png" alt="brand-img"></li>
-               <li><img src="img/themeforest.png" alt="brand-img"></li>
-               <li><img src="img/envato-studio.png" alt="brand-img"></li>
-               <li><img src="img/codecanyon.png" alt="brand-img"></li>
-               <li><img src="img/audiojungle.png" alt="brand-img"></li>
-               <li><img src="img/themeforest.png" alt="brand-img"></li>
-             </ul>
-             <!-- End clients brand slider -->
-            </div>
+          <!-- Start single side bar -->
+          <div class="single_sidebar">
+            <h2>Tags</h2>
+            <ul class="tags_nav">
+              <li><a href="#">Corporate</a></li>
+              <li><a href="#">Background</a></li>
+              <li><a href="#">Recover</a></li>
+              <li><a href="#">News</a></li>
+              <li><a href="#">Template</a></li>
+              <li><a href="#">Wordpress</a></li>
+            </ul>
           </div>
+          <!-- Start single side bar -->
+          <div class="single_sidebar">
+            <h2>Blog Archive</h2>
+            <div class="blog_archive">
+             <form>
+               <select>
+                 <option value="">Blog Archive</option>
+                 <option value="">October(20)</option>
+               </select>
+             </form>
+           </div>
+          </div>
+          <!-- Start single side bar -->
+          <div class="single_sidebar">
+            <h2>Links</h2>
+            <ul>
+              <li><a href="#">Business</a></li>
+              <li><a href="#">Technology</a></li>
+              <li><a href="#">News</a></li>
+              <li><a href="#">Exclusive</a></li>
+              <li><a href="#">Corporate</a></li>
+            </ul>
+          </div>
+         </div>
         </div>
       </div>
     </div>
   </section>
-  <!-- End clients brand area -->  
-
+  <!-- End image editing  -->
+      
   <!-- start footer -->
-  <footer id="footer">
+ <footer id="footer">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 col-md-12 col-sm-12">
@@ -664,7 +364,49 @@
               </div>
             </div>
           </div>
-        </div>        
+        </div>
+      <!--   <div class="col-lg-12 col-md-12 col-sm-12">
+          <div class="footer_middle">
+            <div class="row">
+              <div class="col-lg-4 col-md-4 col-sm-4">
+                <div class="single_footer_middle">
+                  <h2>New York </h2>
+                  <address>
+                    <p>MisterClipping.com USA L.L.C.</p>
+                    <p>25 Broadway, 9th Floor</p>    
+                    <p>New York, NY 10004</p>
+                    <p>United States</p>       
+                    <p>Phone: +1 888-522-0212</p>
+                  </address>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-4">
+                <div class="single_footer_middle">
+                  <h2>London</h2>
+                  <address>
+                    <p>MisterClipping.com B.V.</p>
+                    <p>Grote Houtstraat 178</p>
+                    <p>2011 SZ Haarlem</p>
+                    <p>The Netherlands</p>
+                    <p>Tel: +31 23 542 1530</p>
+                  </address>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-4">
+                <div class="single_footer_middle">
+                  <h2>Paris </h2>
+                  <address>
+                    <p>MisterClipping.com</p>
+                    <p>59, Rue des Petits Champs</p>
+                    <p>75001 Paris</p>
+                    <p>France</p>
+                    <p>Téléphone: +33 (0)182 883 111 </p>
+                  </address>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> -->
         <div class="col-lg-12 col-md-12 col-sm-12">
           <div class="footer_bottom">
             <div class="copyright">
@@ -683,12 +425,16 @@
   
  
   
+
+    
   <!-- jQuery Library -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
   <!-- For content animatin  -->
   <script src="js/wow.min.js"></script>
   <!-- bootstrap js file -->
   <script src="js/bootstrap.min.js"></script> 
+
   <!-- superslides slider -->
   <script src="js/jquery.easing.1.3.js"></script>
   <script src="js/jquery.animate-enhanced.min.js"></script>
@@ -699,8 +445,10 @@
   <script src="https://maps.googleapis.com/maps/api/js"></script>
   <script src="js/jquery.ui.map.js"></script>
 
+
   <!-- custom js file include -->
-  <script src="js/custom.js"></script>  
-      
+  <script src="js/custom.js"></script>   
+ 
+ 
   </body>
 </html>
